@@ -1,0 +1,50 @@
+
+    <html>
+      <head>
+        <style>
+          body { font-family: Arial; background: #eee; padding: 20px; }
+          h2 { color: #333; }
+          .step { margin-bottom: 30px; }
+          .success { color: green; }
+          .error { color: red; }
+          .info { color: blue; }
+          img { max-width: 600px; margin-top: 10px; border: 1px solid #ccc; }
+        </style>
+        <title>Reporte Automatización</title>
+      </head>
+      <body>
+        <h1>Reporte de Automatización de Login y Registro</h1>
+        
+          <div class="step">
+            <h2>Pantalla inicial cargada</h2>
+            <p class="success">Formulario de login visible.</p>
+            <img src="01-inicio.png" />
+          </div>
+          <div class="step">
+            <h2>Formulario de registro</h2>
+            <p class="success">Formulario de registro mostrado correctamente.</p>
+            <img src="02-registro-form.png" />
+          </div>
+          <div class="step">
+            <h2>Registro exitoso</h2>
+            <p class="success">Usuario registrado y formulario de login reaparecido.</p>
+            <img src="03-registrado.png" />
+          </div>
+          <div class="step">
+            <h2>Formulario login lleno con datos incorrectos</h2>
+            <p class="success">Campos del login llenados con datos incorrectos.</p>
+            <img src="05-login-incorrecto.png" />
+          </div>
+          <div class="step">
+            <h2>Alerta no detectada</h2>
+            <p class="info">No apareció ninguna alerta tras hacer login con datos incorrectos.</p>
+            <img src="sin-alerta-login-fallido.png" />
+          </div>
+          <div class="step">
+            <h2>Login fallido</h2>
+            <p class="error">El login falló, no se redirigió a compras.html.</p>
+            <img src="06-login-fallido.png" />
+          </div>
+      </body>
+    </html>
+    
